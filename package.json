@@ -1,0 +1,31 @@
+{
+  "name": "blog-backend-image",
+  "version": "1.0.0",
+  "description": "This project is for uplaoding images on database usng multer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saif-raw/blog-backend-image.git"
+  },
+  "keywords": [
+    "multer",
+    "blog-backend-image",
+    "image-database-upload"
+  ],
+  "author": "Saif Ansari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saif-raw/blog-backend-image/issues"
+  },
+  "homepage": "https://github.com/saif-raw/blog-backend-image#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "multer": "^1.4.2",
+    "uniqid": "^5.2.0"
+  }
+}
